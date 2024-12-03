@@ -9,42 +9,42 @@ shield_maiden = {
 		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
 	}
 
-	damage = 15 
+	damage = 12
 	toughness = 10
-	pursuit = 16
-	screen = 7
+	pursuit = 18
+	screen = 6
 	
 	terrain_bonus = {
-		desert = { damage = -3 toughness = -2 pursuit = -2 screen = -1 }
-		desert_mountains = { damage = -3 toughness = -1 pursuit = -1 screen = -1 }
-		drylands = { damage = 3 toughness = 1 pursuit = 1 screen = 1 }  
-		farmlands = { damage = 4 toughness = 2 pursuit = 1 screen = 4 }  
-		floodplains = { damage = 3 toughness = 2 pursuit = 1 screen = 1 }
-		forest = { damage = 5 toughness = 4 pursuit = 4 screen = 4 }
-		hills = { damage = 3 toughness = 2 pursuit = 4 screen = 3 }  
-		jungle = { damage = 3 toughness = 2 pursuit = 4 screen = 4 }  
-		mountains = { damage = -2 toughness = -2 pursuit = 0 screen = -1 }
-		oasis = { damage = 4 toughness = 2 pursuit = 3 screen = 2 }
-		plains = { damage = 3 toughness = 1 pursuit = 2 screen = 1 }  
-		steppe = { damage = 2 toughness = 0 pursuit = 0 screen = 0 }  
-		taiga = { damage = 3 toughness = 1 pursuit = 4 screen = 3 }  
-		wetlands = { damage = -2 toughness = -1 pursuit = -1 screen = 0 }  
+		desert = { damage = -4 toughness = -2 pursuit = -3 screen = -1 }
+		desert_mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -1 }
+		drylands = { damage = 1 toughness = 1 pursuit = 1 screen = 0 }
+		farmlands = { damage = 2 toughness = 1 pursuit = 1 screen = 2 }
+		floodplains = { damage = 2 toughness = 1 pursuit = 1 screen = 1 }
+		forest = { damage = 4 toughness = 3 pursuit = 3 screen = 3 }
+		hills = { damage = 3 toughness = 2 pursuit = 3 screen = 2 }
+		jungle = { damage = 4 toughness = 2 pursuit = 2 screen = 2 }
+		mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -1 }
+		oasis = { damage = 1 toughness = 1 pursuit = 1 screen = 1 }
+		plains = { damage = 2 toughness = 1 pursuit = 2 screen = 1 }
+		steppe = { damage = 1 toughness = 0 pursuit = 0 screen = 0 }
+		taiga = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }
+		wetlands = { damage = -3 toughness = -2 pursuit = -2 screen = 0 }
 	}
 
 	counters = {
-		pikemen = 1.3
-		monsters = 1.1
+		archers = 2.5
+		monsters = 1.2
 		heavy_infantry = 1.2
 	}
 	
 	winter_bonus = {
-		normal_winter = { damage = 3 toughness = 2 pursuit = 2 screen = 2 }
-		harsh_winter = { damage = 4 toughness = 3 pursuit = 3 screen = 1 }
+		normal_winter = { damage = 2 toughness = 2 pursuit = 2 screen = 1 }
+		harsh_winter = { damage = 3 toughness = 3 pursuit = 3 screen = 1 }
 	}
 
-	buy_cost = { gold = 35 piety = 5 }
-	low_maintenance_cost = { gold = 0.08 piety = 0.04 }
-	high_maintenance_cost = { gold = 0.35 piety = 0.20 }
+	buy_cost = { gold = 45 piety = 10 }
+	low_maintenance_cost = { gold = 0.15 piety = 0.05 }
+	high_maintenance_cost = { gold = 0.50 piety = 0.20 }
 	provision_cost = @provisions_cost_infantry_cheap
 	
 	allowed_in_hired_troops = yes
@@ -58,47 +58,47 @@ shield_maiden = {
 assissan_maiden = {
 	type = skirmishers
 	
-	damage = 11
+	damage = 14
 	toughness = 10
-	pursuit = 15
-	screen = 5
+	pursuit = 20
+	screen = 7
 
 	can_recruit = {
 		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
 	}
 	
 	terrain_bonus = {
-	    desert = { damage = -4 toughness = -2 pursuit = -3 screen = -1 }
-        desert_mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -1 }
-        drylands = { damage = 1 toughness = 1 pursuit = 1 screen = 0 }
-        farmlands = { damage = 3 toughness = 1 pursuit = 0 screen = 3 }  
-        floodplains = { damage = 2 toughness = 1 pursuit = 1 screen = 1 }
-        forest = { damage = 4 toughness = 3 pursuit = 3 screen = 3 }  
-        hills = { damage = 2 toughness = 2 pursuit = 2 screen = 1 }  
-        jungle = { damage = 5 toughness = 2 pursuit = 2 screen = 2 }  
-        mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -1 }  
-        oasis = { damage = 1 toughness = 0 pursuit = 1 screen = 1 }	
-		plains = { damage = 2 toughness = 1 pursuit = 1 screen = 1 }
-		steppe = { damage = 1 toughness = 0 pursuit = 0 screen = 0 }  
-		taiga = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }  
-		wetlands = { damage = -3 toughness = -2 pursuit = -2 screen = 0 }  
+	    desert = { damage = -3 toughness = -2 pursuit = -2 screen = -1 }
+        desert_mountains = { damage = -3 toughness = -2 pursuit = -1 screen = -1 }
+        drylands = { damage = 2 toughness = 1 pursuit = 2 screen = 1 }
+        farmlands = { damage = 3 toughness = 1 pursuit = 1 screen = 3 }  
+        floodplains = { damage = 3 toughness = 2 pursuit = 2 screen = 2 }
+        forest = { damage = 5 toughness = 3 pursuit = 3 screen = 4 }  
+        hills = { damage = 3 toughness = 2 pursuit = 3 screen = 2 }  
+        jungle = { damage = 5 toughness = 3 pursuit = 3 screen = 3 }  
+        mountains = { damage = -3 toughness = -2 pursuit = -1 screen = -1 }  
+        oasis = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }	
+		plains = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }
+		steppe = { damage = 1 toughness = 0 pursuit = 1 screen = 0 }  
+		taiga = { damage = 3 toughness = 2 pursuit = 3 screen = 3 }  
+		wetlands = { damage = -2 toughness = -1 pursuit = -1 screen = 0 }  
 	}
 	
 	counters = {
-		archers = 2
-		monsters = 1
-		heavy_infantry = 1
-		light_cavalry = 1.2
+		archers = 2.5
+		monsters = 1.1
+		heavy_infantry = 1.1
+		light_cavalry = 1.3
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = 2 toughness = 2 pursuit = 2 screen = 1 }
-		harsh_winter = { damage = 3 toughness = 3 pursuit = 2 screen = 2 }
+		normal_winter = { damage = 3 toughness = 2 pursuit = 2 screen = 2 }
+		harsh_winter = { damage = 4 toughness = 3 pursuit = 3 screen = 2 }
 	}
 	
-	buy_cost = { gold = 55 piety = 12 }
-	low_maintenance_cost = { gold = 0.18 piety = 0.07 }
-	high_maintenance_cost = { gold = 0.55 piety = 0.25 }
+	buy_cost = { gold = 60 piety = 15 }
+	low_maintenance_cost = { gold = 0.20 piety = 0.08 }
+	high_maintenance_cost = { gold = 0.60 piety = 0.30 }
 	provision_cost = @provisions_cost_infantry_cheap
 	
 	allowed_in_hired_troops = yes
@@ -112,32 +112,36 @@ assissan_maiden = {
 # 	 Pikemen     #
 ##################
 
-viking_ironclad_pike_axe = {
+viking_ironclad_pike_axe = { 
 	type = pikemen
-	
-	damage = 22
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
+	}
+
+	damage = 24
 	toughness = 32
 	pursuit = 1
-	screen = 1.5
+	screen = 2
 
 	terrain_bonus = {
-		mountains = { toughness = 15 }
-		hills = { toughness = 10 }
-		forests = { toughness = 5 }
-		swamps = { toughness = -5 }
-		desert = { toughness = -10 }
+		mountains = { toughness = 20 }
+		hills = { toughness = 15 }
+		forests = { toughness = 10 }
+		swamps = { toughness = -3 }
+		desert = { toughness = -7 }
 	}
 
 	counters = {
-		light_cavalry = 0.75
+		light_cavalry = 0.5
 		heavy_cavalry = 0.5
 		elephant_cavalry = 0.25
-		archers = 1.25
+		archers = 1.2
 	}
 
-	buy_cost = { gold = 112.5 }
-	low_maintenance_cost = { gold = 0.45 }
-	high_maintenance_cost = { gold = 1.35 }
+	buy_cost = { gold = 125 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1.50 }
 	
 	provision_cost = @provisions_cost_infantry_expensive
 
@@ -365,8 +369,8 @@ winter_guards = {
 varangian_guard_horse = {
 	type = heavy_cavalry
 	
-	damage = 85
-	toughness = 45
+	damage = 80
+	toughness = 50
 	pursuit = 15
 	screen = 0
 	
@@ -375,15 +379,15 @@ varangian_guard_horse = {
 	}
 	
 	terrain_bonus = {
-		farmlands = { damage = 30 }
-		plains = { damage = 30 }
-		drylands = { damage = 30 }
-		steppe = { damage = 15 }
-		hills = { damage = -20 toughness = -10 }
-		mountains = { damage = -30 toughness = -10 }
-		desert = { damage = -20 toughness = -10 }
-		desert_mountains = { damage = -40 toughness = -10 }
-		wetlands = { damage = -50 toughness = -20 }
+		farmlands = { damage = 25 }
+		plains = { damage = 25 }
+		drylands = { damage = 20 }
+		steppe = { damage = 10 }
+		hills = { damage = -15 toughness = -10 }
+		mountains = { damage = -25 toughness = -10 }
+		desert = { damage = -15 toughness = -10 }
+		desert_mountains = { damage = -30 toughness = -15 }
+		wetlands = { damage = -40 toughness = -20 }
 	}
 	
 	counters = {
@@ -398,13 +402,10 @@ varangian_guard_horse = {
 		harsh_winter = { toughness = 6 screen = 6 }
 	}
 	
-	buy_cost = { gold = 150 piety = 15 }
-	low_maintenance_cost = { gold = 0.15 piety = 0.2 }
-	high_maintenance_cost = { gold = 1 piety = 0.35 }
+	buy_cost = { gold = 140 piety = 10 }
+	low_maintenance_cost = { gold = 0.20 piety = 0.15 }
+	high_maintenance_cost = { gold = 1.10 piety = 0.35 }
 
-	
-	allowed_in_hired_troops = yes
-	
 	stack = 50
 	ai_quality = { value = @culture_ai_weight_heavy_cavalry }
 	icon = varangian_guards_horse
@@ -413,28 +414,17 @@ varangian_guard_horse = {
 winter_knights = {
 	type = heavy_cavalry
 
-	damage = 70
-	toughness = 36
+	damage = 65
+	toughness = 40
 	pursuit = 20
 	screen = 10
 
 	terrain_bonus = {
-		plains = { damage = 30 }
-		majorroad_plains = { damage = 30 }
-		minorroad_plains = { damage = 30 }
-		hills = { damage = -20 }
-		majorroad_hills = { damage = -20 }
-		minorroad_hills = { damage = -20 }
-		mountains = { damage = -60 }
-		majorroad_mountains = { damage = -60 }
-		minorroad_mountains = { damage = -60 }
+		plains = { damage = 25 }
+		hills = { damage = -15 }
+		mountains = { damage = -50 }
 		drylands = { damage = 2 }
-		desert_mountains = { damage = -70 }
-		majorroad_desert_mountains = { damage = -70 }
-		minorroad_desert_mountains = { damage = -70 }
-		wetlands = { damage = -70 toughness = -10 pursuit = -30 screen = -30 }
-		majorroad_wetlands = { damage = -70 toughness = -10 pursuit = -30 screen = -30 }
-		minorroad_wetlands = { damage = -70 toughness = -10 pursuit = -30 screen = -30 }
+		wetlands = { damage = -60 toughness = -10 pursuit = -30 screen = -30 }
 	}
 
 	counters = {
@@ -446,19 +436,17 @@ winter_knights = {
 	}
 
 	winter_bonus = {
-		normal_winter = { damage = 10 toughness = 10 }
-		harsh_winter = { damage = 5 toughness = 5 }
+		normal_winter = { damage = 8 toughness = 5 }
+		harsh_winter = { damage = 5 toughness = 3 }
 	}
 
 	can_recruit = {
 		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
 	}
 
-	buy_cost = { gold = 120 piety = 25 }
-	low_maintenance_cost = { gold = 0.55 piety = 0.15 }
-	high_maintenance_cost = { gold = 1.40 piety = 0.45 }
-
-	allowed_in_hired_troops = yes
+	buy_cost = { gold = 110 piety = 20 }
+	low_maintenance_cost = { gold = 0.50 piety = 0.15 }
+	high_maintenance_cost = { gold = 1.30 piety = 0.40 }
 
 	stack = 50
 	ai_quality = { value = @culture_ai_weight_heavy_cavalry }
@@ -468,10 +456,10 @@ winter_knights = {
 valkyrie = {
 	type = heavy_cavalry
 
-	damage = 80
+	damage = 75
 	toughness = 130
 	pursuit = 25
-	screen = 50
+	screen = 40
 
 	counters = {
 		monsters = 1
@@ -480,25 +468,22 @@ valkyrie = {
 	}
 
 	terrain_bonus = {
-		taiga = { damage = 30 toughness = 15 pursuit = 5 screen = 5 }
-		plains = { damage = 20 toughness = 10 pursuit = 5 }
-		drylands = { damage = 15 toughness = 8 pursuit = 4 }
-		hills = { damage = 10 toughness = 5 pursuit = 3 }
-		mountains = { damage = 8 toughness = 5 pursuit = 0 }
-		wetlands = { damage = -10 toughness = -10 pursuit = -5 screen = -5 }
-		forest = { damage = 15 toughness = 10 pursuit = 10 }
-		jungle = { damage = 8 toughness = -5 pursuit = 3 }
-		desert = { damage = -8 toughness = -5 pursuit = -5 }
-		desert_mountains = { damage = -5 toughness = -5 pursuit = -5 }
+		taiga = { damage = 25 toughness = 15 pursuit = 5 screen = 5 }
+		plains = { damage = 15 toughness = 10 pursuit = 5 }
+		drylands = { damage = 10 toughness = 8 pursuit = 4 }
+		hills = { damage = 5 toughness = 5 pursuit = 3 }
+		mountains = { damage = 5 toughness = 5 pursuit = 0 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -5 screen = -5 }
+		forest = { damage = 10 toughness = 10 pursuit = 10 }
 	}
 
 	can_recruit = {
 		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
     }
 
-	buy_cost = { gold = 210 piety = 250 }
-	low_maintenance_cost = { gold = 0.40 piety = 0.45 }
-	high_maintenance_cost = { gold = 1.40 piety = 1.40 }
+	buy_cost = { gold = 200 piety = 200 }
+	low_maintenance_cost = { gold = 0.45 piety = 0.40 }
+	high_maintenance_cost = { gold = 1.50 piety = 1.30 }
 	allowed_in_hired_troops = no
 
 	stack = 20
@@ -727,114 +712,3 @@ viking_horsemanship = {
     ai_quality = { value = @cultural_maa_extra_ai_score }
     icon = viking_horsemanship
 }
-
-ram = {
-	type = siege_weapon
-	
-	can_recruit = {
-        culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
-    }
-	
-	damage = 140
-	toughness = 25
-	pursuit = 0
-	screen = 0
-	
-	siege_tier = 1
-	siege_value = 0.2
-	
-	terrain_bonus = {
-		desert = { damage = -3 toughness = -2 pursuit = 0 screen = 0 }
-		desert_mountains = { damage = -4 toughness = -3 pursuit = 0 screen = 0 }
-		drylands = { damage = 2 toughness = 1 pursuit = 0 screen = 0 }
-		farmlands = { damage = 4 toughness = 3 pursuit = 0 screen = 0 }
-		floodplains = { damage = 3 toughness = 2 pursuit = 0 screen = 0 }
-		forest = { damage = -2 toughness = -2 pursuit = 0 screen = 0 }
-		hills = { damage = 1 toughness = 1 pursuit = 0 screen = 0 }
-		jungle = { damage = -3 toughness = -2 pursuit = 0 screen = 0 }
-		mountains = { damage = -5 toughness = -4 pursuit = 0 screen = 0 }
-		oasis = { damage = 2 toughness = 1 pursuit = 0 screen = 0 },
-		plains = { damage = 3 toughness = 3 pursuit = 0 screen = 0 }
-		steppe = { damage = 2 toughness = 1 pursuit = 0 screen = 0 }
-		taiga = { damage = -1 toughness = 0 pursuit = 0 screen = 0 }
-		wetlands = { damage = -3 toughness = -3 pursuit = 0 screen = 0 }
-	}
-
-	counters = {
-		pikemen = -1.2
-		skirmishers = -1.6
-		heavy_infantry = -1.1
-		archers = -1.3
-		pikemen = -1.8
-		monsters = -2.0
-	}
-
-	buy_cost = { gold = 150 piety = 5 }
-	low_maintenance_cost = { gold = 1.0 piety = 0.05 }
-	high_maintenance_cost = { gold = 3.0 piety = 0.1 }
-	provision_cost = @provisions_cost_siege_weapon
-
-	stack = 10
-	ai_quality = { value = @cultural_siege_ai_score }
-	icon = ram
-}
-
-catapult = {
-	type = siege_weapon
-	
-	can_recruit = {
-        culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
-    }
-	
-	damage = 150
-	toughness = 18
-	pursuit = 0
-	screen = 5
-	
-	siege_tier = 2
-	siege_value = 0.3
-	
-	terrain_bonus = {
-		desert = { damage = 1 toughness = 1 pursuit = 0 screen = 1 }
-		desert_mountains = { damage = 0 toughness = 0 pursuit = 0 screen = 0 }
-		drylands = { damage = 3 toughness = 1 pursuit = 0 screen = 2 }
-		farmlands = { damage = 4 toughness = 3 pursuit = 0 screen = 2 }
-		floodplains = { damage = 3 toughness = 2 pursuit = 0 screen = 2 }
-		forest = { damage = -2 toughness = -1 pursuit = 0 screen = 0 }
-		hills = { damage = 2 toughness = 1 pursuit = 0 screen = 1 },
-		jungle = { damage = -3 toughness = -2 pursuit = 0 screen = 0 }
-		mountains = { damage = -4 toughness = -3 pursuit = 0 screen = 0 }
-		oasis = { damage = 2 toughness = 1 pursuit = 0 screen = 1 }
-		plains = { damage = 4 toughness = 3 pursuit = 0 screen = 2 }
-		steppe = { damage = 3 toughness = 2 pursuit = 0 screen = 1 }
-		taiga = { damage = 0 toughness = 0 pursuit = 0 screen = 0 }
-		wetlands = { damage = -2 toughness = -2 pursuit = 0 screen = 0 }
-	}
-
-	counters = {
-		pikemen = -1.7
-		monsters = -2.0
-		skirmishers = -1.4
-		archers = -1.5
-		light_cavalry = -1.6
-		heavy_cavalry = -1.2
-		
-	}
-
-	buy_cost = { gold = 200 piety = 10 }
-	low_maintenance_cost = { gold = 1.2 piety = 0.06 }
-	high_maintenance_cost = { gold = 3.6 piety = 0.15 }
-	provision_cost = @provisions_cost_siege_weapon
-
-	stack = 10  -- Small number of siege weapons
-	ai_quality = { value = @cultural_siege_ai_score }
-	icon = catapult
-}
-
-
-
-
-
-
-
-

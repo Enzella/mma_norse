@@ -162,13 +162,12 @@ character_player = {
 		# same_faith_opinion = -25
 		general_opinion = 35
 		# religious_head_opinion = -15
-		monthly_gold = 50
-		monthly_prestige = 50
-		monthly_piety = 50
-		domain_limit = 1000
-		vassal_limit = 1000
+		monthly_gold = 5.00
+		monthly_prestige = 5.00
+		monthly_piety = 5.00
+		monthly_dynasty_prestige = 0.5
+		monthly_lifestyle_xp_gain_mult = 0.2
 		tax_slot_add = 5
-		levy_reinforcement_rate = 0.5
 		build_speed = -0.5
 		
 		monsters_attack = 25
@@ -187,10 +186,6 @@ character_player = {
 		embarkation_cost_mult = 1.5
 		build_gold_cost = 5.0
 		holding_build_gold_cost = 5.0
-		mercenary_hire_cost_mult = 5.0
-		men_at_arms_recruitment_cost = -0.5
-		hard_casualty_modifier = -0.5
-		#enemy_hard_casualty_modifier = -0.95
 		character_travel_speed_mult = 0.75
 		character_travel_safety = 50
 
@@ -201,8 +196,7 @@ character_player = {
 		prowess_per_prestige_level = 5
 		learning_per_prestige_level = 2.5
 		
-		monthly_dynasty_prestige = 0.5
-		monthly_lifestyle_xp_gain_mult = 0.2
+
 
 
 		owned_scheme_secrecy_add = 60
@@ -263,6 +257,13 @@ character_soldier = {
 		enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value		
 
+		mercenary_hire_cost_mult = 5.0
+		men_at_arms_recruitment_cost = -0.5
+		hard_casualty_modifier = -0.5
+		#enemy_hard_casualty_modifier = -0.95
+		levy_reinforcement_rate = 0.5
+		domain_limit = 1000
+		vassal_limit = 1000
 		flag = trait_unlocks_t4_withdraw_from_view
 		flag = can_improve_hostile_schemes_decision
 
