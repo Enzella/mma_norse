@@ -1,0 +1,6 @@
+l_english:
+ game_concept_monsters:0 "Monsters"
+ game_concept_monster:0 "Monsters"
+ game_concept_monsters_desc:0 "Monsters are [men_at_arms|E] who are (in some cases barely) tamed monsters found in the wilds.\n\nWhile each kind of Monster is unique, they generally [counter|E] [skirmishers|E], and are in turn slightly Countered by [spearmen|E] and most other [Concept( 'monster', 'Monsters' )|E]."
+ monsters_damage_mult: "[monster|E] [damage|E]"
+ monsters_toughness_mult: "[monster|E] [toughness|E]"

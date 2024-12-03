@@ -1,0 +1,139 @@
+############################################################
+#fantasy
+############################################################
+
+alpi = {
+	type = monsters
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
+	}
+
+	damage = 88
+	toughness = 35
+	pursuit = 34
+	screen = 14
+	siege_value = 0.5
+
+	terrain_bonus = {
+		forest = { damage = -6 pursuit = -18 }
+		taiga = { damage = -8 pursuit = -28 }
+		hills = { toughness = 12 }
+		mountains = { toughness = 28 }
+		desert_mountains = { toughness = 16 }
+	}
+	
+	counters = {
+		skirmishers = 1
+		archers = 2
+		light_cavalry = 1
+	}
+	
+	buy_cost = { gold = 160 }
+	low_maintenance_cost = { gold = 0.7 }
+	high_maintenance_cost = { gold = 1.4 }
+	
+	stack = 25
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = alpi
+}
+
+crimson = {
+	type = monsters
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
+	}
+
+	damage = 156
+	toughness = 44
+	pursuit = 27
+	siege_value = 1
+
+	terrain_bonus = { 
+		forest = { damage = -28 pursuit = -17 }
+		taiga = { damage = -46 pursuit = -22 }
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -44 }
+		normal_winter = { damage = -22 }
+	}
+	
+	counters = {
+		skirmishers = 1
+		archers = 1
+		light_cavalry = 1
+		dragons = 2
+	}
+	
+	buy_cost = { gold = 215 }
+	low_maintenance_cost = { gold = 0.9 }
+	high_maintenance_cost = { gold = 1.6 }
+	
+	stack = 25
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = crimson
+}
+
+beaker = {
+	type = monsters
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
+	}
+
+	damage = 121
+	toughness = 82
+	pursuit = 16
+	screen = 12
+	siege_value = 1.25
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+		heavy_cavalry = 1
+	}
+	
+	buy_cost = { gold = 290 }
+	low_maintenance_cost = { gold = 0.4 }
+	high_maintenance_cost = { gold = 1.3 }
+	
+	stack = 25
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = beaker
+}
+
+swamper = {
+	type = monsters
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
+	}
+
+	damage = 91
+	toughness = 29
+	pursuit = 25
+	siege_value = 0.25
+
+	terrain_bonus = { 
+		wetlands = { damage = 38 pursuit = 25 }
+		forest = { damage = 12 pursuit = 15 }
+		taiga = { damage = 18 pursuit = 20 }
+	}
+
+	counters = {
+		skirmishers = 1
+		archers = 1
+	}
+
+	
+	buy_cost = { gold = 140 }
+	low_maintenance_cost = { gold = 0.8 }
+	high_maintenance_cost = { gold = 1.3 }
+
+	stack = 25
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = swamper
+}
+

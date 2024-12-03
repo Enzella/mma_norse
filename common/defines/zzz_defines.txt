@@ -1,0 +1,4 @@
+﻿NProvince = {
+	BARONY_BUILDING_SLOTS = 6
+	COUNTY_BUILDING_SLOTS = 9
+}

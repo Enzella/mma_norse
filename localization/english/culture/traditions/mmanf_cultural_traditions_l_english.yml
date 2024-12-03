@@ -1,0 +1,24 @@
+﻿l_english:
+ #New Traditions northen war 
+ culture_parameter_unlock_maa_berserker:0 "Can recruit [GetMaA('berserker').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_clan_champions:0 "Can recruit [GetMaA('clan_champions').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_norse_wolf:0 "Can recruit [GetMaA('norse_wolf).GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_shield_maiden:0 "Can recruit [GetMaA('shield_maiden').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_elder_viking:0 "Can recruit [GetMaA('elder_viking').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_vlakyrie:0 "Can recruit [GetMaA('vlakyrie').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_winter_guards:0 "Can recruit [GetMaA('winter_guards').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_winter_knights:0 "Can recruit [GetMaA('winter_knights').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_varangian_guard:0 "Can recruit [GetMaA('varangian_guard').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_varangian_guard_horse:0 "Can recruit [GetMaA('varangian_guard_horse').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_giant_viking:0 "Can recruit [GetMaA('giant_viking').GetName] as [men_at_arms|E]" 
+ culture_parameter_unlock_maa_assissan_maiden:0 "Can recruit [GetMaA('assissan_maiden').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_mammoth_riders:0 "Can recruit [GetMaA('mammoth_riders').GetName] as [men_at_arms|E]"
+ tradition_fp1_northern_war_name:"Northen War"
+ tradition_fp1_northern_war_desc:"Norsemen believed there to be two possibilities in life:"success with its attendant fame; or death." The necessity of defending honour with violence, the belief that time of death was preordained, adventure and fearlessness were core values to the Viking Age. These principal values and convictions were displayed in the tactics of Viking raids and warfare"
+ 
+ 
+
+
+ 
+ 
+

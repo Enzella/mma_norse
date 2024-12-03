@@ -1,0 +1,382 @@
+﻿valkyrie = {
+#		index = 3658
+		valid_sex = female
+
+		no_prowess_loss_from_age = yes
+		can_have_children = no
+		enables_inbred = no
+
+		genetic = yes
+		inherit_chance = 55
+		child_inheritance_sex = female
+
+		physical = yes
+		health_trait = yes
+		good = yes
+
+		life_expectancy = 20
+		health = 2.5
+		
+		flag = join_factions_less
+
+		diplomacy = 4
+		martial = 6
+		stewardship = 4
+		intrigue = 2	
+		learning = 6
+		prowess = 6
+
+		attraction_opinion = 10
+		vassal_opinion = 5
+		flag = can_not_marry
+		can_have_children = no
+
+		monthly_dynasty_prestige = 0.5
+		monthly_lifestyle_xp_gain_mult = 0.2
+		
+
+		culture_modifier = {
+		parameter = valkyrie_trait_more_valued
+		monthly_prestige = 1.0
+		hostile_scheme_resistance_mult = 0.1
+		}
+
+		culture_modifier = {
+		parameter = valkyrie_give_bonuses
+		monthly_piety = 1.0
+		same_culture_opinion = 5
+		}		
+
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = 120
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_valkyrie_desc
+			}
+			desc = trait_valkyrie_desc
+		}
+	}
+
+
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
+true_blood_giant = {
+	opposites = {
+		dwarf
+	}
+
+	prowess = 6
+	health = 0.25
+
+	#inherit_chance = 90
+	#both_parent_has_trait_inherit_chance = 100
+	genetic = yes
+	physical = yes
+
+	enables_inbred = yes
+	birth = 0.0
+	random_creation = 0.0
+	
+
+	tribal_government_opinion = 20
+	same_opinion = 20
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.5
+	}
+	
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_true_blood_giant_desc
+			}
+			desc = trait_true_blood_giant_character_desc
+		}
+	}
+}
+
+dragon_slayer = {
+ 	category = fame
+ 	opposites = {
+ 		dragon_rider
+ 	}
+
+ 	monthly_prestige = 0.25
+
+ 	dread_gain_mult = 0.05
+
+ 	general_opinion = 15
+
+ 	shown_in_ruler_designer = yes
+
+ 	ai_boldness = 10
+ 	desc = {
+ 		first_valid = {
+ 			triggered_desc = {
+ 				trigger = {
+ 					NOT = { exists = this }
+ 				}
+ 				desc = trait_dragon_slayer_desc
+ 			}
+ 			desc = trait_dragon_slayer_character_desc
+ 		}
+ 	}
+}
+
+character_player = {
+		#immortal = yes
+		#set_immortal_age = 18
+		opposites = { incapable }
+		no_prowess_loss_from_age = yes
+		can_have_children = yes
+		enables_inbred = yes
+		genetic = no
+		life_expectancy = 1500
+		years_of_fertility = 1500
+
+		physical = yes
+		health_trait = yes
+		good = yes
+
+		health = 15
+
+		attraction_opinion = 25
+		# vassal_opinion = -25
+		# same_culture_opinion = -25
+		# same_faith_opinion = -25
+		general_opinion = 35
+		# religious_head_opinion = -15
+		monthly_gold = 50
+		monthly_prestige = 50
+		monthly_piety = 50
+		domain_limit = 1000
+		vassal_limit = 1000
+		tax_slot_add = 5
+		levy_reinforcement_rate = 0.5
+		build_speed = -0.5
+		
+		monsters_attack = 25
+		monsters_toughness = 25
+		monsters_pursuit = 10
+		monsters_screen = 10
+		
+		stress_gain_mult = -0.5
+
+		monthly_war_income_mult = 0.5
+		monthly_war_prestige_mult = 0.5
+		monthly_war_piety_mult = 0.5
+		monthly_dynasty_prestige = 5.5
+		domain_tax_mult = 0.25
+		title_creation_cost_mult = 1.5
+		embarkation_cost_mult = 1.5
+		build_gold_cost = 5.0
+		holding_build_gold_cost = 5.0
+		mercenary_hire_cost_mult = 5.0
+		men_at_arms_recruitment_cost = -0.5
+		hard_casualty_modifier = -0.5
+		#enemy_hard_casualty_modifier = -0.95
+		character_travel_speed_mult = 0.75
+		character_travel_safety = 50
+
+		diplomacy_per_prestige_level = 2.5
+		martial_per_prestige_level = 2.5
+		stewardship_per_prestige_level = 2.5
+		intrigue_per_prestige_level = 2.5
+		prowess_per_prestige_level = 5
+		learning_per_prestige_level = 2.5
+		
+		monthly_dynasty_prestige = 0.5
+		monthly_lifestyle_xp_gain_mult = 0.2
+
+
+		owned_scheme_secrecy_add = 60
+		
+		tribal_holding_build_speed = 0.95
+		
+		enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
+		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value		
+
+		flag = trait_unlocks_t4_withdraw_from_view
+		flag = can_improve_hostile_schemes_decision
+
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = -1000
+
+	desc = character_player_desc
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
+character_soldier = {
+		#immortal = yes
+		#set_immortal_age = 18
+		opposites = { incapable }
+		no_prowess_loss_from_age = yes
+		can_have_children = yes
+		enables_inbred = yes
+		genetic = no
+		life_expectancy = 1500
+		years_of_fertility = 1500
+
+		physical = yes
+		health_trait = yes
+		good = yes
+
+		health = 5
+
+		knight_limit = 1000
+
+		levy_reinforcement_rate = 0.5
+
+		men_at_arms_cap = 100
+		men_at_arms_limit = 10
+		
+		levy_attack = 10
+		levy_toughness = 10
+		levy_pursuit = 10
+		levy_screen = 10
+		
+		monsters_attack = 25
+		monsters_toughness = 25
+		monsters_pursuit = 10
+		monsters_screen = 10
+		
+		enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
+		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value		
+
+		flag = trait_unlocks_t4_withdraw_from_view
+		flag = can_improve_hostile_schemes_decision
+
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = -1000
+
+	desc = character_player_desc
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
+
+
+
+character_children_male = {
+		no_prowess_loss_from_age = yes
+		can_have_children = yes
+		genetic = yes
+		enables_inbred = yes
+		inherit_chance = 1000
+		child_inheritance_sex = male
+		parent_inheritance_sex = all
+		physical = yes
+		health_trait = yes
+		good = yes
+		both_parent_has_trait_inherit_chance = 100
+		life_expectancy = 50
+		years_of_fertility = 50
+		health = 10
+		#fertility = 0.5
+		owned_scheme_secrecy_add = 25
+		stress_gain_mult = -0.5
+		
+		diplomacy = 1
+		martial = 1
+		stewardship = 1
+		intrigue = 1	
+		learning = 1
+		prowess = 1
+		
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = -50
+
+	desc = character_player_desc
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
+character_children_female = {
+		no_prowess_loss_from_age = yes
+		can_have_children = yes
+		genetic = yes
+		enables_inbred = yes
+		inherit_chance = 1000
+		child_inheritance_sex = female
+		parent_inheritance_sex = all
+		physical = yes
+		health_trait = yes
+		good = yes
+		both_parent_has_trait_inherit_chance = 100
+		life_expectancy = 50
+		years_of_fertility = 50
+		health = 10
+		#fertility = 0.5
+		owned_scheme_secrecy_add = 25
+		stress_gain_mult = -0.5
+		
+		diplomacy = 1
+		martial = 1
+		stewardship = 1
+		intrigue = 1	
+		learning = 1
+		prowess = 1
+
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = -50
+
+	desc = character_player_desc
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
+gift_character = {
+		health = 10
+		owned_scheme_secrecy_add = 10
+		stress_gain_mult = -0.10
+		life_expectancy = 10
+		years_of_fertility = 10
+
+
+		diplomacy = 1
+		martial = 1
+		stewardship = 1
+		intrigue = 1	
+		learning = 1
+		prowess = 1
+		
+		shown_in_ruler_designer = yes
+		ruler_designer_cost = -50
+
+	desc = character_player_desc
+
+	birth = 0.0
+	random_creation = 0.0
+	ai_energy = 20
+
+}
+
