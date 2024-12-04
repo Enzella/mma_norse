@@ -24,7 +24,6 @@ shield_maiden = {
 		hills = { damage = 3 toughness = 2 pursuit = 3 screen = 2 }
 		jungle = { damage = 4 toughness = 2 pursuit = 2 screen = 2 }
 		mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -1 }
-		oasis = { damage = 1 toughness = 1 pursuit = 1 screen = 1 }
 		plains = { damage = 2 toughness = 1 pursuit = 2 screen = 1 }
 		steppe = { damage = 1 toughness = 0 pursuit = 0 screen = 0 }
 		taiga = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }
@@ -63,6 +62,8 @@ assissan_maiden = {
 	pursuit = 20
 	screen = 7
 
+	siege_value = 0.1
+
 	can_recruit = {
 		culture = { has_cultural_parameter = unlock_maa_varangian_veterans }
 	}
@@ -77,7 +78,6 @@ assissan_maiden = {
         hills = { damage = 3 toughness = 2 pursuit = 3 screen = 2 }  
         jungle = { damage = 5 toughness = 3 pursuit = 3 screen = 3 }  
         mountains = { damage = -3 toughness = -2 pursuit = -1 screen = -1 }  
-        oasis = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }	
 		plains = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }
 		steppe = { damage = 1 toughness = 0 pursuit = 1 screen = 0 }  
 		taiga = { damage = 3 toughness = 2 pursuit = 3 screen = 3 }  
@@ -177,7 +177,6 @@ berserker = {
 	    hills = { damage = 2 toughness = 1 pursuit = 1 screen = 1 }
 	    jungle = { damage = 3 toughness = 3 pursuit = 2 screen = 2 }
 	    mountains = { damage = -3 toughness = -2 pursuit = -2 screen = -1 }
-	    oasis = { damage = 1 toughness = 1 pursuit = 1 screen = 1 }
 	    plains = { damage = 2 toughness = 1 pursuit = 0 screen = 0 }
 	    steppe = { damage = 1 toughness = 0 pursuit = 0 screen = 0 }
 	    taiga = { damage = 3 toughness = 2 pursuit = 2 screen = 2 }
@@ -230,7 +229,6 @@ elder_viking = {
 	    hills = { damage = 2 toughness = 2 pursuit = 2 screen = 2 }
 	    jungle = { damage = 1 toughness = 2 pursuit = 1 screen = 2 },  
 	    mountains = { damage = -2 toughness = -2 pursuit = -1 screen = -1 }
-	    oasis = { damage = 2 toughness = 1 pursuit = 2 screen = 2 }
 	    plains = { damage = 2 toughness = 1 pursuit = 1 screen = 1 }
 	    steppe = { damage = 1 toughness = 1 pursuit = 0 screen = 0 }
 	    taiga = { damage = 2 toughness = 2 pursuit = 2 screen = 2 }
@@ -284,7 +282,6 @@ clan_champions = {
 	    hills = { damage = 0 toughness = 1 pursuit = 0 screen = 1 }
 	    jungle = { damage = -2 toughness = 0 pursuit = 0 screen = 0 }
 	    mountains = { damage = -3 toughness = -2 pursuit = -1 screen = -1 }
-	    oasis = { damage = 3 toughness = 2 pursuit = 1 screen = 1 }
 	    plains = { damage = 2 toughness = 1 pursuit = 0 screen = 1 }
 	    steppe = { damage = 2 toughness = 0 pursuit = 0 screen = 0 }
 	    taiga = { damage = 1 toughness = 1 pursuit = 0 screen = 1 }
@@ -332,7 +329,6 @@ winter_guards = {
 	    hills = { damage = 1 toughness = 1 pursuit = 0 screen = 2 }
 	    jungle = { damage = -3 toughness = -2 pursuit = -1 screen = -1 }
 	    mountains = { damage = -4 toughness = -3 pursuit = -2 screen = -2 }
-	    oasis = { damage = 1 toughness = 2 pursuit = 1 screen = 1 }
 	    plains = { damage = 2 toughness = 2 pursuit = 0 screen = 1 }
 	    steppe = { damage = 1 toughness = 0 pursuit = 0 screen = 0 }  
 	    taiga = { damage = 2 toughness = 4 pursuit = 0 screen = 2 }
